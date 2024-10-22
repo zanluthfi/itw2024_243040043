@@ -1,0 +1,35 @@
+html {
+  background-image: url(bgtugas3d.png);
+  background-repeat: no-repeat;
+  background-size: 1900px 300px;
+}
+body {
+  font-family: georgia;
+}
+h1 {
+  font-family: "comic sans ms";
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+p {
+  text-align: justify;
+}
+#p1 {
+  color: burlywood;
+  text-align: center;
+}
+#p2 {
+  text-align: right;
+  line-height: 175%;
+}
+h3 {
+  text-align: center;
+  a {
+    color: red;
+  }
+}
