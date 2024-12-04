@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">Grid</h2>
+          <p class="sub-heading">nanana nanunu</p>
+        </div>
+        <div class="features feature1">
+          <h4 class="item1">Item1</h4>
+          <p class="item2">Item2</p>
+        </div>
+        <div class="features feature2">
+          <h4 class="item1">Item1</h4>
+          <p class="item2">Item2</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>GRID</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">list1</a></li>
+          <li><a href="">list2</a></li>
+          <li><a href="">list3</a></li>
+          <li><a href="">list4</a></li>
+        </ul>
+      </nav>
+      <section class="services">
+        <div class="nig">
+          <div class="icon">😭</div>
+          <h3>nig1</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+            veritatis?
+          </p>
+        </div>
+        <div class="nig">
+          <div class="icon">😭</div>
+          <h3>nig2</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+            veritatis?
+          </p>
+        </div>
+        <div class="nig">
+          <div class="icon">😭</div>
+          <h3>nig3</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+            veritatis?
+          </p>
+        </div>
+        <div class="nig">
+          <div class="icon">😭</div>
+          <h3>nig4</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim,
+            veritatis?
+          </p>
+        </div>
+      </section>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
